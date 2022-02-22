@@ -1,0 +1,46 @@
+.maintenance_profile_main_background {
+  background: #ebf4fe;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.maintenance_profiles_slide_div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.maintenance_profile_img {
+  width: 100px;
+  border-radius: 100px;
+}
+.arrow_left_img_div {
+  margin-right: 60px;
+}
+.arrow_right_img_div {
+  margin-left: 60px;
+}
+.maintenance_profile_name_img_main_div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.user_profile_name {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+.user_profle_name_text {
+  font-size: 17px;
+  font-weight: bold;
+}
+.user_profile_view_text {
+  font-size: 12px;
+  text-decoration: underline;
+  color: #1D7DEF;
+  margin-top: 10px;
+}

@@ -1,0 +1,301 @@
+.criminal_main_div {
+  padding: 20px;
+}
+.criminal_manage_div {
+  background-color: white;
+  padding: 14px;
+  height: 450px;
+  border-radius: 10px;
+  overflow: hidden;
+  padding-bottom: 7%;
+  width: 100%;
+}
+
+.criminal_input_div {
+  display: flex;
+  margin-top: 10px;
+  align-items: center;
+}
+
+.rent_input {
+  width: 160px;
+  margin-right: 12px;
+  border-radius: 3px;
+  border: 1px solid #aeaeae;
+  padding: 7px;
+  padding-left: 10px;
+  font-size: 12px;
+}
+.criminal_search_btn {
+  background: #1d7def;
+  width: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 3px;
+  padding: 9px;
+}
+
+.save_btn_add_criminal {
+  width: 250px;
+  background-color: #fff !important;
+  border-color: #1d7def !important;
+  color: #1d7def;
+  /* border: none !important; */
+  font-weight: 500 !important;
+  font-size: 15px !important;
+  /* margin-top: 30px; */
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.form_inline_criminal {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 10px;
+}
+
+.officer_license_number_criminal {
+  display: flex;
+  /* justify-content: space-between; */
+  width: 100%;
+  padding: 5px;
+  padding-left: 10px;
+  margin-top: 7px;
+}
+.officer_text_list_criminal {
+  width: 30%;
+  font-size: 14px;
+  /* margin: 10px; */
+}
+.license_text_criminal {
+  width: 23%;
+  font-size: 14px;
+}
+
+/* .criminal_trespass_text {
+  width: 30%;
+  font-size: 14px;
+} */
+
+/* .criminal_main_date {
+  width: 30%;
+  font-size: 14px;
+} */
+
+.all_names_profiles_license_div_criminal {
+  overflow-y: auto;
+  width: 100%;
+  height: 300px;
+  overflow-x: hidden;
+}
+
+.user_name_criminal {
+  font-size: 12px;
+  text-decoration: underline;
+  margin-left: 11px;
+  color: #257cff;
+}
+.profile_img_criminal {
+  width: 30px;
+  border-radius: 20px;
+}
+.profile_name_criminal {
+  width: 30%;
+}
+.bottom_border_criminal {
+  border: 1px solid #ebf4fe;
+}
+.officer_license_number_white_back_criminal {
+  display: flex;
+  width: 100%;
+  background-color: white;
+  padding: 5px;
+  align-items: center;
+  padding-left: 10px;
+}
+/* .name_text_main_page {
+  width: 40%;
+  font-size: 12px;
+}
+.date_of_birth_text {
+  width: 30%;
+  font-size: 14px;
+} */
+/* .date_of_birth_main_page {
+  width: 30%;
+  font-size: 14px;
+} */
+
+.officer_license_number_blue_back_main_page {
+  display: flex;
+  width: 100%;
+  background-color: #ebf4fe;
+  padding: 5px;
+  padding-left: 10px;
+  align-items: center;
+}
+.all_criminal_trespass_lists {
+  overflow-y: auto;
+  width: 100%;
+  height: 100vh;
+  overflow-x: hidden;
+  padding-bottom: 20%;
+}
+
+.resident_rent_roll_text {
+  width: 30%;
+  font-size: 12px;
+}
+.apt_num_text_rent {
+  width: 20%;
+  font-size: 14px;
+}
+.phone_number_text_rent {
+  width: 20%;
+  font-size: 14px;
+}
+.email_text_rent {
+  width: 20%;
+  font-size: 14px;
+}
+.vehicle_text_rent {
+  width: 15%;
+  font-size: 14px;
+}
+
+.profile_name_rent_page {
+  width: 30%;
+  font-size: 14px;
+}
+.apt_num_text {
+  width: 20%;
+  font-size: 13px;
+  color: #1d7def;
+  text-decoration: underline;
+  cursor: pointer;
+}
+.phone_number_text {
+  font-size: 13px;
+  width: 20%;
+  cursor: pointer;
+}
+.email_text_rent_roll {
+  font-size: 13px;
+  width: 20%;
+  cursor: pointer;
+}
+.vehicle_info_text_rent {
+  width: 10%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.popup_header_background {
+  background-color: #eaeaea;
+  padding: 10px;
+  text-align: center;
+}
+.rent_roll_popup_background {
+  padding: 10px;
+  background-color: white;
+}
+.popup_prfile_img {
+  width: 50px;
+  border-radius: 50px;
+}
+.resident_information_div {
+  display: flex;
+  align-items: center;
+}
+.resident_name_information {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+}
+
+.resident_name {
+  font-size: 13px;
+  color: #257cff;
+  text-decoration: underline;
+}
+.resident_email {
+  font-size: 14px;
+  line-height: 20px;
+}
+.resident_phone_no {
+  font-size: 13px;
+  line-height: 20px;
+}
+.bottom_border_rent_popup {
+  width: 100%;
+  height: 1px;
+  left: 383px;
+  top: 272px;
+  background: rgba(196, 196, 196, 0.25);
+  margin-top: 15px;
+}
+.resident_profile_img_div {
+  width: 30px;
+  border-radius: 50px;
+}
+.main-popup {
+  width: 220px !important;
+  inset: 1px auto auto -69px !important;
+}
+.occupants_profile {
+  margin-top: 10px;
+}
+.occupants_div {
+  overflow-x: scroll;
+  height: 80px;
+}
+.resident_information {
+  margin-top: 10px;
+  font-size: 13px;
+  color: #131313;
+}
+
+.fade-class {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1050;
+  width: 100vw;
+  height: 100vh;
+  background-color: #000;
+  opacity: 0.2;
+}
+.popover_overlay {
+  display: flex;
+}
+.no_resident_found {
+  color: gray;
+}
+.no_resident_found_div {
+  padding: 1%;
+}
+.bottom_border_main_page {
+  border: 1px solid #ebf4fe;
+}
+.profile_img_main_page {
+  width: 30px;
+  border-radius: 20px;
+}
+.officer_license_number_white_back_main_page {
+  display: flex;
+  /* justify-content: space-between; */
+  width: 100%;
+  background-color: white;
+  padding: 5px;
+  padding-left: 10px;
+}
+.officer_license_number_main_page {
+  display: flex;
+  /* justify-content: space-between; */
+  width: 100%;
+  padding: 5px;
+  padding-left: 10px;
+  margin-top: 7px;
+}

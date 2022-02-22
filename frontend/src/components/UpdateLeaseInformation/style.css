@@ -1,0 +1,42 @@
+.main-officer_schedule {
+  display: flex;
+  width: 100%;
+  background: #eaeaea;
+  height: 100%;
+  overflow: scroll;
+}
+
+.update_lease_information {
+  display: flex;
+  background: #fff;
+  width: 80%;
+  flex-direction: column;
+  margin: 20px;
+  overflow: scroll;
+}
+
+.officer_management_calendar {
+  width: 40%;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-bottom: 10px;
+  padding-right: 10px;
+  overflow: hidden;
+}
+
+.list_of_appartments {
+  height: 400px;
+  width: 100%;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-bottom: 10px;
+  padding-right: 20px;
+}
+.history_of_payments {
+  height: 400px;
+  width: 100%;
+  padding-top: 10px;
+  padding-left: 20px;
+  padding-bottom: 20px;
+  padding-right: 20px;
+}

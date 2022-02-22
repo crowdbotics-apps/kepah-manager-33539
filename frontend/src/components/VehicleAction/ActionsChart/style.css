@@ -1,0 +1,42 @@
+.action_input_div {
+  align-items: center;
+  background: #ebf4fe;
+  width: 180px;
+  display: flex;
+  padding: 6px;
+  border-radius: 4px;
+  justify-content: space-between;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-left: 20px;
+}
+.action_input {
+  border: none;
+  background: #ebf4fe;
+  width: 100%;
+  font-size: 14px;
+}
+
+.vehicle_action_from_to_div {
+  display: flex;
+  margin-top: 20px;
+}
+.from_vehicle_div {
+  display: flex;
+  align-items: center;
+}
+.to_vehicle_div {
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+}
+.action_text_main_page {
+  font-size: 18px;
+  font-weight: 500;
+}
+.action_div_main_page {
+  margin-top: 20px;
+}
+.react-datepicker-wrapper {
+  width: auto!important;
+}

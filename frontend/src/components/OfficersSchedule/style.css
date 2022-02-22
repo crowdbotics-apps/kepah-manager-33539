@@ -1,0 +1,65 @@
+.main-officer_schedule {
+  display: flex;
+  width: 100%;
+  background: #eaeaea;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.all_components_schedule {
+  display: flex;
+  width:80%;
+  flex-direction: column;
+  overflow: scroll;
+}
+.officer_daily_schedule {
+  height: 480px;
+  display: flex;
+}
+
+.officer_management_calendar {
+  width: 40%;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-bottom: 10px;
+  padding-right: 10px;
+  overflow: hidden;
+}
+
+.daily_schedule {
+  width: 60%;
+  padding-top: 20px;
+  padding-left: 10px;
+  padding-bottom: 10px;
+  padding-right: 20px;
+  overflow: hidden;
+}
+.list_of_officers_schedule {
+  width: 100%;
+  padding-top: 10px;
+  padding-left: 20px;
+  padding-bottom: 20px;
+  padding-right: 20px;
+  height: 50%;
+}
+.choose-day_main_back {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+}
+.go-back_choose-day {
+  height: 100%;
+  width: 80%;
+}
+.Go_back_officers_schedule {
+  font-size: 16px;
+  color: #257cff;
+  text-decoration: underline;
+  margin-left: 20px;
+  position: relative;
+  top: 15px;
+  cursor: pointer;
+}
+

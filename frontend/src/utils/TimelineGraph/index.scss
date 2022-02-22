@@ -1,0 +1,552 @@
+$item-color: white;
+$item-background: #2196f3;
+$item-border: 1px solid #1a6fb3;
+$item-selected-color: white;
+$item-selected-background: #ffc107;
+$item-selected-border: 1px solid #ff9800;
+
+$row-background-even: transparent;
+$row-background-odd: rgba(0, 0, 0, 0.05);
+
+$border-color: #bbb;
+$border-width: 1px;
+$thick-border-width: 2px;
+$sidebar-color: #ffffff;
+$sidebar-background-color: #c52020;
+$list-item-padding: 0 4px;
+$weekend: rgba(250, 246, 225, 0.5);
+
+.react-calendar-timeline {
+  * {
+    box-sizing: border-box;
+  }
+
+  .rct-outer {
+    display: block;
+    white-space: nowrap;
+    height: 250px !important;
+
+    // height: 180px !important;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    width: 34rem;
+    background-color: #eaeaea;
+    box-shadow: 0px 0px 8px 0.3px #eaeaea;
+  }
+
+  .rct-scroll {
+    display: inline-block;
+    white-space: normal; // was set to nowrap in .rct-outer
+    vertical-align: top;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    -ms-touch-action: none;
+    touch-action: none;
+    height: 100% !important;
+  }
+
+  .rct-item {
+    &:hover {
+      z-index: 88;
+    }
+
+    .rct-item-content {
+      position: sticky;
+      position: -webkit-sticky;
+      left: 0px;
+      overflow: hidden;
+      display: inline-block;
+      border-radius: 2px;
+      padding: 0 6px;
+      height: 100%;
+    }
+  }
+
+  .rct-sidebar {
+    // overflow: hidden;
+    margin-bottom: 40px;
+
+    white-space: normal; // was set to nowrap in .rct-outer
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+    box-sizing: border-box;
+    border-right: $border-width solid $border-color;
+
+    &.rct-sidebar-right {
+      border-right: 0;
+      border-left: $border-width solid $border-color;
+    }
+
+    .rct-sidebar-row {
+      padding: $list-item-padding;
+      overflow: hidden;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+      box-sizing: border-box;
+      margin: 0;
+      border-bottom: $border-width solid $border-color;
+
+      &.rct-sidebar-row-odd {
+        background: $row-background-odd;
+      }
+      &.rct-sidebar-row-even {
+        background: $row-background-even;
+      }
+    }
+  }
+
+  // TODO: rename or remove once we make breaking change to rename vertical lines
+  // to columns
+  .rct-vertical-lines {
+    .rct-vl {
+      position: absolute;
+      border-left: 1px dotted $border-color;
+      width: 300px;
+      // height:200%!important;
+      // height: 100%!important;
+      // right: 3000ch;
+      // left: 90px;
+      // margin-left: 900px;      // z-index: 30;
+      &.rct-vl-first {
+        // border-left-width: 9px;
+      }
+      &.rct-day-,
+      &.rct-day-0 {
+        background: $weekend;
+      }
+    }
+  }
+
+  // .rct-horizontal-lines {
+  //   -webkit-user-select: none;
+  //   -moz-user-select: -moz-none;
+  //   -ms-user-select: none;
+  //   user-select: none;
+
+  //   .rct-hl-even,
+  //   .rct-hl-odd {
+  //     border-bottom: $border-width solid $border-color;
+  //     box-sizing: border-box;
+  //     z-index: 40;
+  //   }
+  //   .rct-hl-odd {
+  //     background: $row-background-odd;
+  //   }
+  //   .rct-hl-even {
+  //     background: $row-background-even;
+  //   }
+  // }
+
+  .rct-cursor-line {
+    position: absolute;
+    width: 2px;
+    background: $item-background;
+    z-index: 51;
+  }
+
+  .rct-dateHeader {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    cursor: pointer;
+    font-size: 14px;
+    background-color: rgb(240, 240, 240);
+  }
+
+  .rct-dateHeader-primary {
+    background-color: initial;
+    border-left: 1px solid #bbb;
+    border-right: 1px solid #bbb;
+    color: #fff;
+  }
+
+  .rct-header-root {
+    // background: #c52020;
+    // border-bottom: 1px solid #bbb;
+    display: flex;
+  }
+
+  .rct-calendar-header {
+    margin-left: 100px;
+  }
+}
+.rct-calendar-header > div:nth-child(1) {
+  display: none;
+}
+.rct-horizontal-lines {
+  display: none;
+}
+.rct-dateHeader {
+  border-left: none;
+  border-bottom: none;
+}
+.rct-header-root {
+  background-color: none !important;
+}
+.rct-scroll > div:nth-child(1) {
+  // display: none;
+  inset: auto !important;
+  position: absolute !important;
+}
+
+.react-calendar-timeline .rct-dateHeader {
+  /* display: flex; */
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+  border-bottom: none !important;
+  cursor: pointer;
+  font-size: 14px;
+  background-color: white !important;
+  border-left: none !important;
+  /* margin-left: 20px!important; */
+}
+// .rct-header-root {
+//   // display: flex !important;
+//   // width: 550px !important;
+//   // position: absolute !important;
+//   // bottom: 0px !important;
+//   // display: none !important;
+// }
+.react-calendar-timeline {
+  // background-color: #eaeaea !important;
+  border-radius: 7px !important;
+  position: relative !important;
+}
+.rct-sidebar-row {
+  height: 30px !important;
+  line-height: 0px !important;
+  display: flex !important;
+  align-items: center !important;
+  background: white !important;
+  margin-top: 8% !important;
+  margin-left: 8% !important;
+  margin-bottom: 8% !important;
+
+  border-radius: 3px !important;
+  width: 148px !important;
+}
+.rct-sidebar {
+  border: none !important;
+  width: 160px !important;
+  height: 100% !important;
+}
+.react-calendar-timeline .rct-horizontal-lines .rct-hl-odd {
+  background-color: #eaeaea !important;
+  border-bottom: none !important;
+}
+
+.react-calendar-timeline .rct-horizontal-lines .rct-hl-even {
+  border-bottom: none !important;
+}
+.rct-item-content {
+  display: none !important;
+}
+// rct-calendar-header div:nth-child(1) {
+//   display: none !important;
+// }
+
+.rct-dateHeader span:nth-child(1) {
+  font-size: 11px;
+}
+// .rct-dateHeader{
+//   width: 50px!important;
+// }
+
+.rct-time {
+  width: 100%;
+  background-color: white;
+}
+.rct-header-root {
+  background-color: none !important;
+}
+.rct-time-div {
+  display: flex;
+  width: 546px;
+  align-items: center;
+  background-color: white;
+  position: absolute !important;
+  bottom: 0;
+  z-index: 1000;
+}
+.demo-demo {
+  // box-shadow: 0px 0px 8px 0.3px #eaeaea;
+}
+.time-text {
+  margin-left: 16px;
+  font-size: 13px;
+}
+
+// $item-color: white;
+// $item-background: #2196f3;
+// $item-border: 1px solid #1a6fb3;
+// $item-selected-color: white;
+// $item-selected-background: #ffc107;
+// $item-selected-border: 1px solid #ff9800;
+
+// $row-background-even: transparent;
+// $row-background-odd: rgba(0, 0, 0, 0.05);
+
+// $border-color: #bbb;
+// $border-width: 1px;
+// $thick-border-width: 2px;
+// $sidebar-color: #ffffff;
+// $sidebar-background-color: #c52020;
+// $list-item-padding: 0 4px;
+// $weekend: rgba(250, 246, 225, 0.5);
+
+// .react-calendar-timeline {
+//   * {
+//     box-sizing: border-box;
+//   }
+
+//   .rct-outer {
+//     display: block;
+//     white-space: nowrap;
+//     height: 250px !important;
+//     overflow: scroll;
+//     width: 450px;
+//     background-color: #eaeaea;
+//     box-shadow: 0px 0px 8px 0.3px #eaeaea;
+//   }
+
+//   .rct-scroll {
+//     display: inline-block;
+//     white-space: normal; // was set to nowrap in .rct-outer
+//     vertical-align: top;
+//     overflow-x: scroll;
+//     overflow-y: hidden;
+//     -ms-touch-action: none;
+//     touch-action: none;
+//   }
+
+//   .rct-item {
+//     &:hover {
+//       z-index: 88;
+//     }
+
+//     .rct-item-content {
+//       position: sticky;
+//       position: -webkit-sticky;
+//       left: 0px;
+//       overflow: hidden;
+//       display: inline-block;
+//       border-radius: 2px;
+//       padding: 0 6px;
+//       height: 100%;
+//     }
+//   }
+
+//   .rct-sidebar {
+//     overflow: hidden;
+//     white-space: normal; // was set to nowrap in .rct-outer
+//     display: inline-block;
+//     vertical-align: top;
+//     position: relative;
+//     box-sizing: border-box;
+//     border-right: $border-width solid $border-color;
+
+//     &.rct-sidebar-right {
+//       border-right: 0;
+//       border-left: $border-width solid $border-color;
+//     }
+
+//     .rct-sidebar-row {
+//       padding: $list-item-padding;
+//       overflow: hidden;
+//       white-space: nowrap;
+//       text-overflow: ellipsis;
+//       box-sizing: border-box;
+//       margin: 0;
+//       border-bottom: $border-width solid $border-color;
+
+//       &.rct-sidebar-row-odd {
+//         background: $row-background-odd;
+//       }
+//       &.rct-sidebar-row-even {
+//         background: $row-background-even;
+//       }
+//     }
+//   }
+
+//   // TODO: rename or remove once we make breaking change to rename vertical lines
+//   // to columns
+//   .rct-vertical-lines {
+//     .rct-vl {
+//       position: absolute;
+//       border-left: 1px dotted $border-color;
+//       width: 300px;
+//       // right: 3000ch;
+//       // left: 90px;
+//       // margin-left: 900px;      // z-index: 30;
+//       &.rct-vl-first {
+//         border-left-width: 2px;
+//       }
+//       &.rct-day-,
+//       &.rct-day-0 {
+//         background: $weekend;
+//       }
+//     }
+//   }
+
+//   // .rct-horizontal-lines {
+//   //   -webkit-user-select: none;
+//   //   -moz-user-select: -moz-none;
+//   //   -ms-user-select: none;
+//   //   user-select: none;
+
+//   //   .rct-hl-even,
+//   //   .rct-hl-odd {
+//   //     border-bottom: $border-width solid $border-color;
+//   //     box-sizing: border-box;
+//   //     z-index: 40;
+//   //   }
+//   //   .rct-hl-odd {
+//   //     background: $row-background-odd;
+//   //   }
+//   //   .rct-hl-even {
+//   //     background: $row-background-even;
+//   //   }
+//   // }
+
+//   .rct-cursor-line {
+//     position: absolute;
+//     width: 2px;
+//     background: $item-background;
+//     z-index: 51;
+//   }
+
+//   .rct-dateHeader {
+//     display: flex;
+//     align-items: center;
+//     justify-content: center;
+//     height: 100%;
+//     cursor: pointer;
+//     font-size: 14px;
+//     background-color: rgb(240, 240, 240);
+//   }
+
+//   .rct-dateHeader-primary {
+//     background-color: initial;
+//     border-left: 1px solid #bbb;
+//     border-right: 1px solid #bbb;
+//     color: #fff;
+//   }
+
+//   .rct-header-root {
+//     // background: #c52020;
+//     // border-bottom: 1px solid #bbb;
+//     display: flex;
+//   }
+
+//   .rct-calendar-header {
+//     margin-left: 107px;
+//   }
+// }
+// .rct-calendar-header > div:nth-child(1) {
+//   display: none;
+// }
+// .rct-horizontal-lines {
+//   display: none;
+// }
+// .rct-dateHeader {
+//   border-left: none;
+//   border-bottom: none;
+// }
+// .rct-header-root {
+//   background-color: none !important;
+// }
+// .rct-scroll > div:nth-child(1) {
+//   // display: none;
+//   inset: auto !important;
+//   position: absolute !important;
+// }
+
+// .react-calendar-timeline .rct-dateHeader {
+//   /* display: flex; */
+//   align-items: center;
+//   justify-content: space-between;
+//   height: 100%;
+//   border-bottom: none !important;
+//   cursor: pointer;
+//   font-size: 14px;
+//   background-color: white !important;
+//   border-left: none !important;
+//   /* margin-left: 20px!important; */
+// }
+// // .rct-header-root {
+// //   // display: flex !important;
+// //   // width: 550px !important;
+// //   // position: absolute !important;
+// //   // bottom: 0px !important;
+// //   // display: none !important;
+// // }
+// .react-calendar-timeline {
+//   // background-color: #eaeaea !important;
+//   border-radius: 7px !important;
+//   position: relative !important;
+// }
+// .rct-sidebar-row {
+//   height: 30px !important;
+//   line-height: 0px !important;
+//   display: flex !important;
+//   align-items: center !important;
+//   background: white !important;
+//   margin-top: 8% !important;
+//   margin-left: 8% !important;
+//   margin-bottom: 8% !important;
+
+//   border-radius: 3px !important;
+//   width: 148px !important;
+// }
+// .rct-sidebar {
+//   border: none !important;
+//   width: 160px !important;
+// }
+// .react-calendar-timeline .rct-horizontal-lines .rct-hl-odd {
+//   background-color: #eaeaea !important;
+//   border-bottom: none !important;
+// }
+
+// .react-calendar-timeline .rct-horizontal-lines .rct-hl-even {
+//   border-bottom: none !important;
+// }
+// .rct-item-content {
+//   display: none !important;
+// }
+// // rct-calendar-header div:nth-child(1) {
+// //   display: none !important;
+// // }
+
+// .rct-dateHeader span:nth-child(1) {
+//   font-size: 10px;
+// }
+// // .rct-dateHeader{
+// //   width: 50px!important;
+// // }
+
+// .rct-time {
+//   width: 490px;
+//   background-color: white;
+// }
+// .rct-header-root {
+//   background-color: none !important;
+// }
+// .rct-time-div {
+//   display: flex;
+//   width: 450px;
+//   align-items: center;
+//   background-color: white;
+//   position: absolute !important;
+//   bottom: 0;
+//   z-index: 1000;
+// }
+// .demo-demo {
+//   // box-shadow: 0px 0px 8px 0.3px #eaeaea;
+// }
+// .time-text {
+//   margin-left: 16px;
+//   font-size: 13px;
+// }

@@ -1,0 +1,244 @@
+.list_of_officer_back {
+  background-color: white;
+  height: 100%;
+  padding: 20px;
+  border-radius: 5px;
+  overflow: hidden;
+}
+.list_of_officers_input_div {
+  display: flex;
+}
+
+.list_of_officers_input {
+  width: 300px;
+  margin-right: 12px;
+  border-radius: 3px;
+  border: 1px solid #aeaeae;
+  padding: 5px;
+  padding-left: 10px;
+  font-size: 12px;
+}
+.list_of_officers_search_btn {
+  background: #1d7def;
+  width: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 3px;
+}
+
+.list_of_officer_text_input {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.recent_vacation_report_request {
+  font-size: 15px;
+}
+.profile_name_officers {
+  height: 33px;
+  border-radius: 25px;
+}
+
+.check_div {
+  background-color: #71bb81;
+  border-radius: 30px;
+  /* padding: 5px; */
+  height: 20px;
+  width: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+}
+.crose_div {
+  background-color: #fb8787;
+  border-radius: 10px;
+  height: 20px;
+  width: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.crose_img {
+  height: 10px;
+  width: 10px;
+}
+.check_img {
+  margin-top: 1px;
+}
+.check_crose_div {
+  display: flex;
+}
+
+.profile_name_date {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+}
+.profile_name_list {
+  font-size: 12px;
+}
+.date_list {
+  font-size: 12px;
+  color: #d4d4d4;
+}
+
+.recent_profiles_requests {
+  display: flex;
+  background: white;
+  box-shadow: 0 0 5px rgb(0 0 0 / 20%);
+  width: 250px;
+  justify-content: space-between;
+  padding: 13px;
+  align-items: center;
+  border-radius: 5px;
+}
+.profile_img_name_date {
+  display: flex;
+}
+
+.recent_requests_top {
+  margin-top: 10px;
+  display: flex;
+}
+.ml-3 {
+  margin-left: 10px;
+}
+
+.all_names_profiles_license_div_main_page_schedule {
+  overflow-y: scroll;
+  width: 100%;
+  height: 100px;
+  position: relative;
+}
+.officer_license_number_white_back_main_page_schedule {
+  display: flex;
+  /* justify-content: space-between; */
+  width: 100%;
+  background-color: white;
+  padding: 5px;
+  padding-left: 10px;
+}
+.profile_name_main_page_schedule {
+  width: 25%;
+}
+.profile_img_main_page_schedule {
+  width: 30px;
+  border-radius: 20px;
+}
+.user_name_main_page_schedule {
+  font-size: 12px;
+  text-decoration: underline;
+  margin-left: 11px;
+  color: #257cff;
+}
+.license_text_main_page_schedule {
+  width: 21%;
+  font-size: 12px;
+}
+
+.officer_license_number_main_page_schedule {
+  display: flex;
+  /* justify-content: space-between; */
+  width: 100%;
+  padding: 5px;
+  padding-left: 10px;
+  margin-top: 7px;
+}
+.officer_text_list_main_page_schedule {
+  width: 25%;
+  font-size: 12px;
+  /* margin: 10px; */
+}
+.phone_no_text_schedule {
+  width: 18%;
+  font-size: 12px;
+}
+
+.email_text_schedule {
+  width: 18%;
+  font-size: 12px;
+}
+.make_a_schedule {
+  width: 18%;
+  font-size: 13px;
+  color: #257cff;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.officer_license_number_blue_back_main_page_schedule {
+  display: flex;
+  /* justify-content: space-between; */
+  width: 100%;
+  background-color: #ebf4fe;
+  padding: 5px;
+  padding-left: 10px;
+}
+.work_status {
+  width: 120px;
+  background: #ebf4fe;
+  padding: 6px;
+  border-radius: 3px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+
+.work_status_choose1 {
+  margin-top: 5px;
+  width: 120px;
+  background: #fff;
+  padding: 6px;
+  border-radius: 3px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  z-index: 1000;
+  height: 25px;
+  box-shadow: 0px 0px 10px 3px #eaeaea;
+  cursor: pointer;
+}
+.work_status_choose2 {
+  margin-top: 33px;
+  width: 120px;
+  background: #fff;
+  padding: 6px;
+  border-radius: 3px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  z-index: 1000;
+  height: 25px;
+  box-shadow: 0px 0px 10px 3px #eaeaea;
+  cursor: pointer;
+}
+.work_status_choose3 {
+  margin-top: 61px;
+  width: 120px;
+  background: #fff;
+  padding: 6px;
+  border-radius: 3px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  z-index: 1000;
+  height: 25px;
+  box-shadow: 0px 0px 10px 3px #eaeaea;
+  cursor: pointer;
+}
+.work_status_white {
+  width: 120px;
+  background: #fff;
+  padding: 6px;
+  border-radius: 3px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

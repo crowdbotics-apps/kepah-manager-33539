@@ -1,0 +1,71 @@
+.officer_management_back {
+  background-color: white;
+  height: 100%;
+  border-radius: 5px;
+  /* overflow: scroll; */
+}
+.react-calendar__navigation {
+  background-color: #eaeaea !important;
+  display: flex !important;
+  justify-content: space-evenly !important;
+  align-items: center !important;
+}
+.react-calendar__month-view {
+  padding: 12px !important;
+  margin-top: -15px !important;
+}
+.react-calendar {
+  line-height: 15px !important;
+  width: 300px !important;
+  box-shadow: 0 0 4px rgb(0 0 0 / 20%);
+  border-radius: 10px;
+  border: none !important;
+}
+.react-calendar__navigation__arrow {
+  background: #fff !important;
+  height: 18px !important;
+  border-radius: 26px !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  min-width: none !important;
+}
+
+.react-calendar__navigation__label {
+  flex-grow: 0 !important;
+}
+
+.react-calendar__navigation button {
+  min-width: 0 !important;
+}
+.calendar_display {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.officers_management_div {
+  padding: 20px;
+}
+.all_slots_officers_management {
+  font-size: 10px;
+  margin-left: 5px;
+}
+.slots_div {
+  display: flex;
+  justify-content: space-evenly;
+  padding-bottom: 30px;
+  padding-top: 10px;
+}
+
+.react-calendar__tile--active {
+  background: #006edc;
+  color: white;
+  height: 38px !important;
+  border-radius: 43px !important;
+}
+.react-calendar__tile--now {
+  background: #ffff76;
+  height: 38px !important;
+  border-radius: 43px !important;
+}
