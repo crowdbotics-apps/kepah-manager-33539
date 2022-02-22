@@ -1,0 +1,20 @@
+.incident_action_main_div {
+    padding: 20px;
+    height: 100vh;
+    display: flex;
+    background-color: #EAEAEA;
+    width: 80%;
+  }
+  .incident_action_main_page {
+    background-color: white;
+    padding: 20px;
+    height: 100%;
+    border-radius: 10px;
+    overflow: hidden;
+    padding-bottom: 7%;
+    width: 100%;
+  }
+  .incident_back{
+      display: flex;
+      width:100%;
+  }

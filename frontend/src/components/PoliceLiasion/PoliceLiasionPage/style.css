@@ -1,0 +1,102 @@
+.add_new_resident_back {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.add_new_resident_background_color {
+  background-color: white;
+  width: 400px;
+  border-radius: 5px;
+  overflow: scroll;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.add_new_resident_name_img_div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.add_new_resident_text {
+  font-size: 16px;
+  font-weight: 500;
+}
+.manager_profile_img {
+  width: 100px;
+  height: 100px;
+  border-radius: 100px;
+  border: 2px solid #ebf4fe;
+  padding: 1px;
+}
+.manager_name_text {
+  font-size: 16px;
+  font-weight: 800;
+  margin-top: 11px;
+}
+.upload_photo_text_police_liasion {
+  font-size: 11px;
+  color: #1d7def;
+  text-decoration: underline;
+  margin-top: 20px;
+}
+.email_input_field {
+  border: none;
+  background: #eaeaea;
+  padding: 7px;
+  font-size: 13px;
+  padding-left: 15px;
+  border-radius: 5px;
+  width: 100%;
+  padding-right: 15px;
+  margin-top: 2px;
+}
+.email_label {
+  font-size: 13px;
+  margin-top: 20px;
+}
+
+.phone_input_div {
+  border: none;
+  background: #ebf4fe;
+  padding: 7px;
+  font-size: 13px;
+  padding-left: 15px;
+  border-radius: 5px;
+  width: 100%;
+  padding-right: 15px;
+  margin-top: 2px;
+}
+.phone_label {
+  font-size: 13px;
+  margin-top: 20px;
+}
+.phone_input_field_div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.phone_input_field {
+  border: none;
+  background: none;
+  width: 100%;
+}
+input:focus {
+  outline: none;
+}
+.edit_resident_profile_save_button {
+  width: 300px;
+  margin-top: 50px;
+  background-color: #1d7def !important;
+  color: #1d7def;
+  font-weight: 500 !important;
+  font-size: 15px !important;
+  border-radius: 5px;
+  padding: 5px;
+  color: white;
+}

@@ -1,0 +1,166 @@
+.choose-day_back {
+  background-color: white;
+  width: 400px;
+  border-radius: 5px;
+  overflow: scroll;
+  padding: 20px;
+}
+.react-calendar__navigation {
+  background-color: #eaeaea !important;
+  display: flex !important;
+  justify-content: space-evenly !important;
+  align-items: center !important;
+}
+.react-calendar__month-view {
+  padding: 12px !important;
+  margin-top: -15px !important;
+}
+.react-calendar {
+  line-height: 15px !important;
+  width: 300px !important;
+  box-shadow: 0 0 4px rgb(0 0 0 / 20%);
+  border-radius: 10px;
+  border: none !important;
+}
+.react-calendar__navigation__arrow {
+  background: #fff !important;
+  height: 18px !important;
+  border-radius: 26px !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  min-width: none !important;
+}
+
+.react-calendar__navigation__label {
+  flex-grow: 0 !important;
+}
+
+.react-calendar__navigation button {
+  min-width: 0 !important;
+}
+.calendar_display {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.officers_management_div {
+  padding: 20px;
+}
+.all_slots_officers_management {
+  font-size: 10px;
+  margin-left: 5px;
+}
+.slots_div {
+  display: flex;
+  justify-content: space-evenly;
+  padding-bottom: 30px;
+  padding-top: 10px;
+}
+
+.react-calendar__tile--active {
+  background: #006edc;
+  color: white;
+  height: 38px !important;
+  border-radius: 43px !important;
+}
+.react-calendar__tile--now {
+  background: #ffff76;
+  height: 38px !important;
+  border-radius: 43px !important;
+}
+.manage_officers_text {
+  font-size: 13px;
+  text-decoration: underline;
+  color: #257cff;
+}
+.list_of_officers_text {
+  font-size: 17px;
+}
+.choose_time_div {
+  display: flex;
+  justify-content: space-between;
+}
+.choose-time_back {
+  background-color: white;
+  width: 400px;
+  border-radius: 5px;
+  overflow: scroll;
+  padding: 20px;
+  margin-top: 10px;
+}
+
+.date_span {
+  margin-top: 20px;
+}
+.posts_white {
+  width: 210px;
+  padding: 6px;
+  border-radius: 3px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #ebf4fe;
+}
+.choose_post_type {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.type_text_post {
+  margin-right: 20px;
+}
+.arrow-background {
+  background: #eaeaea;
+  padding: 3px;
+  width: 26px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.time_selector {
+  display: flex;
+  justify-content: center;
+}
+.from-div-timer {
+  display: flex;
+  align-items: center;
+  margin-right: 25px;
+}
+.timer_input-button {
+  display: flex;
+  background: #ebf4fe;
+  /* padding: 5px; */
+  height: 35px;
+  width: 80px;
+  justify-content: space-between;
+}
+.timer_to_input-button {
+    display: flex;
+    background: #ebf4fe;
+    margin-left: 10px;
+    height: 35px;
+    width: 80px;
+    justify-content: space-between;
+  }
+.time-arrow {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.time-numbers {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 6px;
+}
+.from-span {
+  margin-right: 10px;
+}
+.input-time{
+  width: 25px;
+  background: #ebf4fe;
+  border: none;
+}

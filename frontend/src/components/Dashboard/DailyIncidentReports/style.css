@@ -1,0 +1,121 @@
+.daily_incident_main {
+  background-color: white;
+  padding: 30px;
+  height: 400px;
+  border-radius: 10px;
+  overflow: hidden;
+  padding-bottom: 7%;
+}
+
+.daily_incident_input_btn {
+  display: flex;
+  justify-content: space-between;
+}
+.daily_incident_text_div {
+}
+.Daily_incident_text {
+  font-size: 17px;
+}
+.daily_incident_input_div {
+  display: flex;
+}
+.daily_incident_input {
+  width: 200px;
+  margin-right: 12px;
+  border-radius: 3px;
+  border: 1px solid #aeaeae;
+  padding: 5px;
+  padding-left: 10px;
+  font-size: 12px;
+}
+.search_btn {
+  background: #1d7def;
+  width: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 3px;
+}
+.daily_incident_all_reports_div {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 12px;
+}
+.daily_incident_report_name_time_div {
+  width: 80%;
+}
+.daily_incident_report_no_name {
+  text-decoration: underline;
+  font-size: 15px;
+  cursor: pointer;
+}
+.daily_incident_report_time_date {
+  font-size: 12px;
+  color: #717270;
+  margin-left: 14px;
+}
+.daily_incident_main_report {
+  font-size: 13px;
+  color: #717270;
+  margin-top: 8px;
+}
+.incident_share_report_div {
+  display: flex;
+  justify-content: space-evenly;
+  width: 20%;
+}
+.round_background {
+  box-shadow: 0px 0px 0px 4px #e4ffd8;
+  border-radius: 20px;
+}
+
+.round_background_2 {
+  box-shadow: 0px 0px 0px 4px #ffdada;
+  border-radius: 20px;
+}
+
+.round_background_3 {
+  box-shadow: 0px 0px 0px 4px #fff7dc;
+  border-radius: 20px;
+}
+.down_arrow {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 6%;
+}
+.down_border {
+  margin-top: 5px;
+}
+.bottom_border_daily_incident {
+  height: 1px;
+  background: rgba(196, 196, 196, 0.25);
+  margin-top: 15px;
+}
+
+.daily_incident_scroll {
+  overflow: auto;
+  height: 100%;
+}
+.calendar {
+  width: 22%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 13px;
+  margin-bottom: 13px;
+}
+
+@media(max-width: 1025px){
+  .daily_incident_input_btn {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 10px;
+}
+.daily_incident_input_div{
+  margin-top: 10px;
+}
+}
+

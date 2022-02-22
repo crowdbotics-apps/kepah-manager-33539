@@ -1,0 +1,43 @@
+.main-officer_schedule {
+    display: flex;
+    width: 100%;
+    background: #eaeaea;
+    height: 100%;
+    overflow: scroll;
+  }
+  
+  .list_of_officers_main_div {
+    padding: 20px;
+    height: 100vh;
+    display: flex;
+    background-color: #eaeaea;
+    width: 80%;
+  }
+  
+  .officer_management_calendar {
+    width: 40%;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    overflow: hidden;
+  }
+  
+  .list_of_appartments {
+    background-color: white;
+    padding: 20px;
+    height: 100%;
+    border-radius: 10px;
+    overflow: hidden;
+    padding-bottom: 7%;
+    width: 100%;
+  }
+  .history_of_payments {
+    height: 400px;
+    width: 100%;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+  }
+  

@@ -1,0 +1,167 @@
+.list_of_officer_main_div {
+  padding: 20px;
+}
+.list_of_officers_main_page {
+  background-color: white;
+  padding: 14px;
+  height: 450px;
+  border-radius: 10px;
+  overflow: hidden;
+  padding-bottom: 7%;
+  width: 80%;
+}
+.list_of_officers_manage_div_main_page {
+  display: flex;
+  justify-content: space-between;
+}
+
+.list_of_officers_text_main_page {
+  font-size: 17px;
+}
+.officer_license_number_main_page {
+  display: flex;
+  /* justify-content: space-between; */
+  width: 100%;
+  padding: 5px;
+  padding-left: 10px;
+  margin-top: 7px;
+}
+.officer_text_list_main_page {
+  width: 30%;
+  font-size: 14px;
+  /* margin: 10px; */
+}
+.license_text_main_page {
+  width: 23%;
+  font-size: 14px;
+}
+.user_name_main_page {
+  font-size: 12px;
+  text-decoration: underline;
+  margin-left: 11px;
+  color: #257cff;
+}
+.profile_img_main_page {
+  width: 30px;
+  border-radius: 20px;
+}
+.profile_name_main_page {
+  width: 30%;
+}
+.bottom_border_main_page {
+  border: 1px solid #ebf4fe;
+}
+.officer_license_number_white_back_main_page {
+  display: flex;
+  /* justify-content: space-between; */
+  width: 100%;
+  background-color: white;
+  padding: 5px;
+  padding-left: 10px;
+}
+.officer_license_number_blue_back_main_page {
+  display: flex;
+  /* justify-content: space-between; */
+  width: 100%;
+  background-color: #ebf4fe;
+  padding: 5px;
+  padding-left: 10px;
+}
+
+.all_names_profiles_license_div_main_page {
+  overflow-y: auto;
+  width: 100%;
+  height: 300px;
+  overflow-x: hidden;
+}
+
+/* .license_scroll_div_main_page {
+      height: 100%;
+      width: 100%;
+    } */
+.license_number_div_main_page {
+  margin-left: 15px;
+}
+
+.list_of_officers_input_div {
+  display: flex;
+  margin-top: 10px;
+}
+
+.list_of_officers_input {
+  width: 300px;
+  margin-right: 12px;
+  border-radius: 3px;
+  border: 1px solid #aeaeae;
+  padding: 5px;
+  padding-left: 10px;
+  font-size: 12px;
+}
+.list_of_officers_search_btn {
+  background: #1d7def;
+  width: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 3px;
+}
+
+.bottom_border_list {
+  border: 1px solid #ebf4fe;
+  margin-top: 10px;
+}
+
+.phone_no_text {
+  width: 23%;
+  font-size: 14px;
+}
+
+.email_text {
+  width: 23%;
+  font-size: 14px;
+}
+@media (max-width: 750px) {
+  .phone_no_text {
+    display: none;
+    width: 0;
+  }
+
+  .email_text {
+    display: none;
+    width: 0;
+  }
+  .license_text_main_page {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .officer_license_number_main_page {
+    width: 100%;
+  }
+  .officer_text_list_main_page {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .profile_name_main_page {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .form_inline {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    flex-direction: column;
+  }
+  .license_scroll_div_main_page {
+    display: none;
+  }
+}

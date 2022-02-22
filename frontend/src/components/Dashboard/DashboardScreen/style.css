@@ -1,0 +1,96 @@
+.main-dashboard {
+  display: flex;
+  width: 100%;
+  background: #eaeaea;
+  height: 100vh;
+  overflow: hidden;
+}
+.all_components {
+  display: flex;
+  width: 80%;
+  flex-direction: column;
+  overflow: scroll;
+}
+.manage_officers_div {
+  width: 60%;
+  height: 100%;
+}
+
+.list_officers_div {
+  width: 40%;
+}
+.manage_officers {
+  height: 450px;
+  /* height: 50%; */
+  padding-left: 3%;
+  padding-top: 3%;
+  width: 60%;
+}
+.Daily_incident {
+  height: 450px;
+  padding-left: 3%;
+  padding-top: 2%;
+  padding-right: 0%;
+  width: 60%;
+}
+.list_of_officers {
+  /* height: 50%; */
+  height: 450px;
+  padding-left: 4%;
+  padding-top: 3%;
+  padding-right: 4%;
+  width: 40%;
+}
+.quick_rent_roll_padding {
+  height: 450px;
+  padding-left: 4%;
+  padding-top: 2%;
+  padding-right: 4%;
+  width: 40%;
+}
+
+.manage_officers_lis_officers_div {
+  display: flex;
+}
+.daily_incident_quick_rent_roll {
+  display: flex;
+}
+
+@media (max-width: 1025px) {
+  .quick_rent_roll_padding {
+    height: 50%;
+    padding-left: 4%;
+    padding-top: 2%;
+    padding-right: 4%;
+    width: 100%;
+  }
+  .Daily_incident {
+    height: 50%;
+    padding-left: 4%;
+    padding-top: 2%;
+    padding-right: 4%;
+    width: 100%;
+  }
+  .manage_officers {
+    height: 50%;
+    padding-left: 3%;
+    padding-top: 3%;
+    padding-right: 3%;
+    width: 100%;
+  }
+  .list_of_officers {
+    height: 50%;
+    padding-left: 4%;
+    padding-top: 3%;
+    padding-right: 4%;
+    width: 100%;
+  }
+  .manage_officers_lis_officers_div {
+    flex-direction: column;
+    display: flex;
+  }
+  .daily_incident_quick_rent_roll {
+    display: flex;
+    flex-direction: column;
+  }
+}

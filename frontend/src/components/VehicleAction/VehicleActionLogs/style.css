@@ -1,0 +1,391 @@
+.list_of_officer_main_div {
+  padding: 20px;
+}
+.list_of_officers_main_page {
+  background-color: white;
+  padding: 14px;
+  height: 450px;
+  border-radius: 10px;
+  overflow: hidden;
+  padding-bottom: 7%;
+  width: 80%;
+}
+.list_of_officers_manage_div_main_page {
+  display: flex;
+  justify-content: space-between;
+}
+
+.list_of_officers_text_main_page {
+  font-size: 18px;
+  font-weight: 500;
+}
+.officer_license_number_main_page {
+  display: flex;
+  /* justify-content: space-between; */
+  width: 100%;
+  padding: 5px;
+  padding-left: 10px;
+  margin-top: 7px;
+}
+.officer_text_list_main_page {
+  width: 30%;
+  font-size: 14px;
+  /* margin: 10px; */
+}
+.license_text_main_page {
+  width: 23%;
+  font-size: 14px;
+}
+.user_name_main_page {
+  font-size: 12px;
+  text-decoration: underline;
+  margin-left: 11px;
+  color: #257cff;
+}
+.profile_img_main_page {
+  width: 30px;
+  border-radius: 20px;
+}
+.profile_name_main_page {
+  width: 30%;
+}
+
+.officer_license_number_white_back_main_page {
+  display: flex;
+  /* justify-content: space-between; */
+  width: 100%;
+  background-color: white;
+  padding: 5px;
+  padding-left: 10px;
+}
+.officer_license_number_blue_back_main_page {
+  display: flex;
+  /* justify-content: space-between; */
+  width: 100%;
+  background-color: #ebf4fe;
+  padding: 5px;
+  padding-left: 10px;
+}
+
+.all_names_profiles_license_div_main_page {
+  overflow-y: auto;
+  width: 100%;
+  height: 300px;
+  overflow-x: hidden;
+}
+
+/* .license_scroll_div_main_page {
+      height: 100%;
+      width: 100%;
+    } */
+.license_number_div_main_page {
+  margin-left: 15px;
+}
+
+.vehicle_action_input_div {
+  display: flex;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.list_of_officers_input {
+  width: 300px;
+  margin-right: 12px;
+  border-radius: 3px;
+  border: 1px solid #aeaeae;
+  padding: 5px;
+  padding-left: 10px;
+  font-size: 12px;
+}
+.list_of_officers_search_btn {
+  background: #1d7def;
+  width: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 3px;
+}
+
+.bottom_border_list {
+  border: 1px solid #ebf4fe;
+  margin-top: 10px;
+}
+
+.phone_no_text {
+  width: 23%;
+  font-size: 14px;
+}
+
+.email_text {
+  width: 23%;
+  font-size: 14px;
+}
+@media (max-width: 750px) {
+  .phone_no_text {
+    display: none;
+    width: 0;
+  }
+
+  .email_text {
+    display: none;
+    width: 0;
+  }
+  .license_text_main_page {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .officer_license_number_main_page {
+    width: 100%;
+  }
+  .officer_text_list_main_page {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .profile_name_main_page {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .form_inline {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    flex-direction: column;
+  }
+  /* .license_scroll_div_main_page {
+    display: none;
+  } */
+}
+.round_background {
+  box-shadow: 0px 0px 0px 4px #e4ffd8;
+  border-radius: 20px;
+}
+.date_time {
+  width: 15%;
+  font-size: 0.9rem;
+  color: #717270;
+}
+.license_main_page {
+  cursor: pointer;
+  font-size: 13px;
+  color: #257cff;
+  text-decoration: underline;
+}
+.owner_name_div {
+  width: 27%;
+  font-size: 12px;
+  color: #717270;
+}
+.round_back_div {
+  width: 10%;
+}
+.booted_text {
+  width: 20%;
+}
+.vehicle_actions_logs_all {
+  display: flex;
+  width: 100%;
+  margin-top: 20px;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.license_scroll_div_vehicle_page {
+  overflow-y: auto;
+  width: 100%;
+  height: 350px;
+  overflow-x: hidden;
+}
+.bottom_border_vehicle_page {
+  width: 100%;
+  height: 1px;
+  left: 383px;
+  top: 272px;
+  background: rgba(196, 196, 196, 0.25);
+}
+.resident_profile_name_text {
+  margin-left: 2px;
+}
+.taginfo_width {
+  width: 27%;
+}
+.popup_header {
+  box-shadow: 0 1px 8px rgb(0 0 0 / 20%);
+
+  margin-top: 75px;
+  width: 300px !important;
+  border: none !important;
+  display: flex;
+  padding: 0.5rem 1rem;
+  margin-bottom: 0;
+  font-size: 1rem;
+  background-color: #f0f0f0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  border-top-left-radius: calc(0.3rem - 1px);
+  border-top-right-radius: calc(0.3rem - 1px);
+}
+.popup_header2 {
+  width: 300px !important;
+  border: none !important;
+  display: flex;
+  padding: 0.5rem 1rem;
+  margin-bottom: 0;
+  font-size: 1rem;
+  background-color: #f0f0f0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  border-top-left-radius: calc(0.3rem - 1px);
+  border-top-right-radius: calc(0.3rem - 1px);
+}
+.taginfo_profile_name {
+  font-size: 16px;
+  font-weight: bold;
+  display: flex;
+  justify-content: flex-end;
+  width: 50%;
+}
+.taginfo_background {
+  width: 300px;
+  background-color: white;
+  box-shadow: 0 0 4px rgb(0 0 0 / 20%) !important;
+  padding: 5px;
+  border-bottom-right-radius: 7px;
+  border-bottom-left-radius: 7px;
+  display: flex;
+}
+.taginfo_profile_pic {
+  width: 91px;
+  border-radius: 50px;
+  position: absolute;
+  top: 87px;
+  left: 22px;
+}
+.profile_pic_div {
+  width: 50%;
+}
+.resident_info {
+  display: flex;
+  width: 50%;
+  flex-direction: column;
+}
+.width_div {
+  width: 50%;
+}
+.action_logs_popup {
+  width: 300px;
+  background: white;
+  margin-top: 10px;
+  box-shadow: 0 1px 8px rgb(0 0 0 / 20%);
+  border-radius: calc(0.3rem - 1px);
+}
+.popover {
+  background: none !important;
+}
+.fade {
+  box-shadow: none !important;
+}
+.taginfo_date_popover {
+  font-size: 15px;
+}
+.taginfo_time_popover {
+  font-size: 15px;
+  margin-left: 3px;
+}
+.taginfo_tires_popover {
+  margin-left: 3px;
+  font-size: 15px;
+  font-weight: bold;
+}
+.taginfo_vehicle_logs_popover {
+  margin-top: 10px;
+}
+.actions_log_popover_background {
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 15px;
+  height: 100px;
+  overflow-x: scroll;
+}
+.actions_log_text {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.vehicle_report_div {
+  position: relative;
+  width: 21%;
+  font-size: 12px;
+  margin-left: 25px;
+  /* display: flex;
+  justify-content: center;
+  flex-direction: column; */
+  /* align-items: center; */
+}
+.report_div {
+  width: 120px;
+  background: #ebf4fe;
+  padding: 6px;
+  border-radius: 3px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+
+.report_choose {
+  margin-top: 5px;
+  width: 120px;
+  background: #ebf4fe;
+  padding: 6px;
+  border-radius: 3px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  z-index: 1000;
+  height: 25px;
+  box-shadow: 0px 0px 10px 3px #eaeaea;
+  cursor: pointer;
+}
+.report_choose1 {
+  margin-top: 35px;
+  width: 120px;
+  background: #ebf4fe;
+  padding: 6px;
+  border-radius: 3px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  z-index: 1000;
+  height: 25px;
+  cursor: pointer;
+  box-shadow: 0px 0px 10px 3px #eaeaea;
+}
+
+.report_choose2 {
+  margin-top: 65px;
+  width: 120px;
+  background: #ebf4fe;
+  padding: 6px;
+  border-radius: 3px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  z-index: 1000;
+  height: 25px;
+  box-shadow: 0px 0px 10px 3px #eaeaea;
+  cursor: pointer;
+}
+.up_arrow_img {
+  width: 10px;
+}

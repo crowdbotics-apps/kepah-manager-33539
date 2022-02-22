@@ -1,0 +1,47 @@
+.daily_schedule_back {
+  background-color: white;
+  height: 100%;
+  border-radius: 5px;
+  padding: 20px;
+  overflow: hidden;
+}
+.date_day_schedule {
+  margin-left: 2px;
+  color: #257cff;
+}
+
+.posts_white {
+  width: 210px;
+  padding: 6px;
+  border-radius: 3px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #ebf4fe;
+}
+.posts_main_div {
+  width: 70%;
+  font-size: 12px;
+  margin-top: 5px;
+}
+
+.chart2 {
+  width: 100%;
+  position: relative;
+  /* overflow: scroll; */
+  /* height: 180px; */
+  height: 260px;
+
+  margin-top: 20px;
+}
+.empty_slots_div {
+  margin-top: 14px;
+}
+.empty_slots_text {
+  font-size: 13px;
+}
+.slots_no_empty {
+  font-size: 13px;
+  margin-left: 10px;
+  color: #ce2b2b;
+}

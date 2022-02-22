@@ -1,0 +1,20 @@
+.maintenance_main_div {
+  height: 100vh;
+  display: flex;
+  background-color: #eaeaea;
+  width: 80%;
+  overflow: hidden;
+  padding: 20px;
+}
+.maintenance_profile_main_page {
+  width: 30%;
+}
+.request_page_main_div {
+  width: 70%;
+}
+.terms_conditions_main_div_back {
+  background-color: #fff;
+  padding: 20px;
+  width: 100%;
+  overflow: scroll;
+}

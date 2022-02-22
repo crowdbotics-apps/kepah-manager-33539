@@ -1,0 +1,25 @@
+.edit_main_div {
+    display: flex;
+    background-color: #EAEAEA;
+    width: 80%;
+    height: 100vh;
+  }
+  .insurances_main_page {
+    /* background-color: white;
+    padding: 14px;
+    height: 100%; */
+    border-radius: 10px;
+    overflow: hidden;
+    padding-bottom: 7%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .insurance_back{
+      display: flex;
+      width:100%;
+  }
+
+  

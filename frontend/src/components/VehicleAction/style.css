@@ -1,0 +1,20 @@
+.vehicle_action_main_div {
+  padding: 20px;
+  height: 100vh;
+  display: flex;
+  background-color: #eaeaea;
+  width: 80%;
+}
+.vehicle_action_main_page {
+  background-color: white;
+  padding: 20px;
+  height: 100%;
+  border-radius: 10px;
+  overflow: scroll;
+  padding-bottom: 7%;
+  width: 100%;
+}
+.vehicle_back {
+  display: flex;
+  width: 100%;
+}

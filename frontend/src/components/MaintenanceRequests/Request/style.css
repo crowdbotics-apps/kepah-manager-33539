@@ -1,0 +1,104 @@
+.requests_main_page_background {
+  background-color: #fff;
+  width: 100%;
+  height: 100vh;
+  padding: 40px;
+  overflow: scroll;
+}
+.phone_input_div {
+  border: none;
+  background: #ebf4fe;
+  padding: 7px;
+  font-size: 13px;
+  padding-left: 15px;
+  border-radius: 5px;
+  width: 100%;
+  padding-right: 15px;
+  margin-top: 2px;
+}
+.phone_label {
+  font-size: 13px;
+  margin-top: 20px;
+}
+.phone_input_field_div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.phone_input_field {
+  border: none;
+  background: none;
+  width: 100%;
+}
+
+.details_input_div {
+  border: none;
+  background: #ebf4fe;
+  padding: 7px;
+  font-size: 13px;
+  padding-left: 15px;
+  border-radius: 5px;
+  width: 100%;
+  padding-right: 15px;
+  margin-top: 2px;
+  /* height: 200px; */
+}
+.details_label {
+  font-size: 13px;
+  margin-top: 20px;
+}
+.details_input_field_div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.details_input_field {
+  border: none;
+  background: none;
+  width: 100%;
+}
+
+.request_no_status_div {
+  display: flex;
+  justify-content: space-between;
+}
+.checked_img_div {
+  background-color: #39b454;
+  width: 12px;
+  height: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  margin-left: 5px;
+}
+.request_status {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.status_completed {
+  font-size: 12px;
+  margin-left: 2px;
+}
+.status_text {
+  font-size: 12px;
+}
+.request_no_text {
+  font-size: 17px;
+}
+
+.border_bottom_requests {
+  border-bottom: 1px solid #eaeaea;
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.manager-calendar {
+  width: 15px;
+  margin-top: -8px;
+}
+.dropdown-request{
+  width: 15px;
+  margin-top: -8px;
+}

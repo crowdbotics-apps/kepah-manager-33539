@@ -1,0 +1,28 @@
+.App{
+    background-color: #EAEAEA;
+    height: 100%;
+    /* overflow: hidden; */
+}
+
+
+::-webkit-scrollbar-thumb
+{
+    border-radius: 10px;
+    background-color: #efefef;
+}
+
+::-webkit-scrollbar-track
+{
+    border-radius: 10px;
+    background-color: white;
+}
+
+::-webkit-scrollbar
+{
+    width: 5px;
+    background-color: white;
+    height: 5px;
+}
+
+
+
